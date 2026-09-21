@@ -8,12 +8,11 @@ class Solution {
                 buy=prices[i];
             }
             int currP=prices[i]-buy;
-
             maxP=Math.max(currP,maxP);
         }
-            
+
         return maxP;
+
         
     }
-
 }
